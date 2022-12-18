@@ -1,5 +1,72 @@
-.AVA {
-    height: 640px;
-    width: 640px;
-    
+body {
+
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+* {
+    box-sizing: border-box;
+  }
+header {
+    position: relative;
+    background-color: black;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.ava {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50%;
+    height: 120px;
+    width: 120px;
+    border: 3px solid rgba(60, 191, 243, 1);
+    border-radius: 50%;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 49%;
+    margin-bottom: 0px;
+}
+main {
+    background-color: bisque;
+}
+.nav-list {
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    font-size: 30px;
+}
+
+.section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+.section-item a:hover {
+    color: #4d2323;
+}
+p {
+    margin-left: 60px;
+    margin-top: 0px;
+}
+footer {
+   background-color: rgb(55, 192, 107); 
+   display: inline-block;
+}
+.mygit{
+    margin-left: 60px;
+    font-size: 30px;
+}
+.curse_link {
+    position: relative;
+    margin-left: 50%;
+}
+.rslogo {
+    position: relative;
+    margin-left: 50%;
 }
